@@ -1,0 +1,51 @@
+{---------------------------------------------------------------------------+
+|                                                                           |
+|  Unit.........: GroupPeriodo.pas                                          |
+|  Componente...: "TGroupPeriodo"                                           |
+|  Herança......: "TPanel" (nativo do Delphi)                               |
+|  Descrição....: Componente para configurar grupos de datas.               |
+|                 Útil filtrar dados em tela e para para relatorios.        |
+|                                                                           |
+|  Data.........: 15/07/2024 - 22:03h                                       |
+|  Autoria......: Adriano Zanini                                            |
+|                                                                           |
++---------------------------------------------------------------------------}
+
+package GroupPeriodo;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Painel de Datas'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  GroupPeriodo in '..\scr\GroupPeriodo.pas';
+
+end.
