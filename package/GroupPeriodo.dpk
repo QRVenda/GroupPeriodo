@@ -1,0 +1,57 @@
+{==============================================================================]
+[ Unit           : GroupPeriodo.pas                                            ]
+[ Componente     : TGroupPeriodo                                               ]
+[ Herança        : TPanel (Delphi VCL)                                         ]
+[ Escopo         : Componente para configuração de grupos de datas.            ]
+[                  Útil para filtros em tela e relatórios.                     ]
+[------------------------------------------------------------------------------]
+[ Versão         : 1.0.2                                                       ]
+[ Criado em      : julho/2024                                                  ]
+[ Última mod.    : março/2026                                                  ]
+[------------------------------------------------------------------------------]
+[ Copyright      : (c) 2024-2026 Adriano Zanini                                ]
+[ Licença        : Apache License 2.0                                          ]
+[                  https://www.apache.org/licenses/LICENSE-2.0                 ]
+[ GitHub         : https://github.com/QRVenda                                  ]
+[------------------------------------------------------------------------------]
+[ Autor          : Adriano Zanini                                              ]
+{==============================================================================}
+
+package GroupPeriodo;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Painel de Datas'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  GroupPeriodo in '..\scr\GroupPeriodo.pas';
+
+end.
